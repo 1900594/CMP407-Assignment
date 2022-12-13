@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5242015214710886665}
   - component: {fileID: 2688572994781843547}
   - component: {fileID: 5884615916072700058}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,11 +93,11 @@ CapsuleCollider:
   m_GameObject: {fileID: 2798779158281147381}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   m_Radius: 0.5000001
-  m_Height: 2
+  m_Height: 200.00005
   m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000011920929}
 --- !u!1 &7809163371906886141
 GameObject:
   m_ObjectHideFlags: 0
@@ -107,9 +107,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7061307918533611245}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Water
-  m_TagString: Untagged
+  m_TagString: Water
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
