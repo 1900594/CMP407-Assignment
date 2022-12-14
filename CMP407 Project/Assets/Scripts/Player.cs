@@ -35,6 +35,12 @@ public class Player : MonoBehaviour
             Collectables++;
             other.gameObject.SetActive(false);
         }
+
+    }
+
+   public int ReturnCollectables()
+    {
+        return Collectables;
     }
 
 }
