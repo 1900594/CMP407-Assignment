@@ -32,6 +32,9 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody rb;
 
+
+    public AK.Wwise.Event footstepSound = new  AK.Wwise.Event();
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -94,6 +97,7 @@ public class PlayerMovement : MonoBehaviour
         if (Grounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+            footstepSound.Post(gameObject);
         }
 
         //in air 
