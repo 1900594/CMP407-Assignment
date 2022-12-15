@@ -1,6 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{807B997F-8D91-453B-ACBD-59558F33B855}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{807B997F-8D91-453B-ACBD-59558F33B855}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{807B997F-8D91-453B-ACBD-59558F33B855}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Footstep1" ID="{6C934FB9-E572-43F8-AA63-4D52FAA0AC5E}" ShortID="420903339">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footstep1" ID="{1D94B4B9-FAA9-489F-B4C1-E442B7AD56F1}">
+							<Language>SFX</Language>
+							<AudioFile>Footstep1.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="689489102"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Footstep1" ID="{1D94B4B9-FAA9-489F-B4C1-E442B7AD56F1}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Footstep2" ID="{C88083E3-E7E3-4BBD-BDAB-B853F333AEC2}" ShortID="797913850">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footstep2" ID="{DDD0F38F-8C38-4EB4-AFC6-CF97520EFDC3}">
+							<Language>SFX</Language>
+							<AudioFile>Footstep2.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="307816707"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Footstep2" ID="{DDD0F38F-8C38-4EB4-AFC6-CF97520EFDC3}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Footstep3" ID="{71766A18-14DF-46C9-98D8-DD013A3DBD39}" ShortID="616990653">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Footstep3" ID="{ED8C3BBB-C08B-4C15-9A6D-FECA01216193}">
+							<Language>SFX</Language>
+							<AudioFile>Footstep3.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="742638298"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Footstep3" ID="{ED8C3BBB-C08B-4C15-9A6D-FECA01216193}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

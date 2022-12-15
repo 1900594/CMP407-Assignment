@@ -70,6 +70,7 @@ public static class AkWwiseProjectInfo
 			try
 			{
 				ProjectData = UnityEditor.AssetDatabase.LoadAssetAtPath<AkWwiseProjectData>(s_dataAssetPath);
+			
 
 				if (ProjectData == null)
 				{
@@ -93,6 +94,7 @@ public static class AkWwiseProjectInfo
 			catch (System.Exception e)
 			{
 				UnityEngine.Debug.LogError("WwiseUnity: Unable to load Wwise Data: " + e);
+				
 			}
 		}
 

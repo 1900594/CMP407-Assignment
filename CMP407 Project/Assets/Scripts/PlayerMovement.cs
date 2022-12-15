@@ -30,7 +30,11 @@ public class PlayerMovement : MonoBehaviour
 
     Vector3 moveDirection;
 
+   private bool bIsWalking = false; 
+
     Rigidbody rb;
+
+    float timeElapsed = 0;
 
 
     public AK.Wwise.Event footstepSound = new  AK.Wwise.Event();
@@ -50,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
         //ground check 
         Grounded = Physics.Raycast(transform.position, Vector3.down, playerHeight * 0.5f + 0.2f, whatIsGround);
 
+        timeElapsed += Time.deltaTime;
+
         MyInput();
         SpeedControl();
 
@@ -63,20 +69,26 @@ public class PlayerMovement : MonoBehaviour
             rb.drag = 0;
         }
 
+       
+
     }
 
     private void FixedUpdate()
     {
         MovePlayer();
+        
     }
 
     private void MyInput()
     {
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
+        //footstepSound.Post(gameObject);
+
+        PlayFootstep();
 
         //when to jump 
-        if(Input.GetKey(jumpKey) && readyToJump && Grounded)
+        if (Input.GetKey(jumpKey) && readyToJump && Grounded)
         {
             readyToJump = false;
 
@@ -84,6 +96,7 @@ public class PlayerMovement : MonoBehaviour
 
             Invoke(nameof(ResetJump), jumpCooldown);
         }
+
     }
 
     private void MovePlayer()
@@ -92,19 +105,25 @@ public class PlayerMovement : MonoBehaviour
 
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-
+        
         //on ground
         if (Grounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
-            footstepSound.Post(gameObject);
+           // bIsWalking = true;
+            //footstepSound.Post(gameObject);
         }
-
+      
         //in air 
         else if(!Grounded)
         {
-            rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+          rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+           // footstepSound.Post(gameObject);
         }
+
+        
+       
+       
     }
 
     private void SpeedControl()
@@ -132,5 +151,14 @@ public class PlayerMovement : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+    }
+
+    private void PlayFootstep()
+    {
+        if(rb.velocity.magnitude > moveSpeed - 0.5 && timeElapsed > 0.4) //velocity value will need to be changed if players speed is changed.
+        {
+            footstepSound.Post(gameObject);
+            timeElapsed = 0;
+        }
     }
 }
