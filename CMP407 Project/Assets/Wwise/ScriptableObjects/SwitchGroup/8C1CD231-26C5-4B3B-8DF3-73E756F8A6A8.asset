@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc31097a0df1fd4ba5cd92dac434203, type: 3}
-  m_Name: CE8AF94E-3F46-449B-BE2D-1A55AB5FD325
+  m_Script: {fileID: 11500000, guid: da833a20a51e18940ab75e33e388fc19, type: 3}
+  m_Name: 8C1CD231-26C5-4B3B-8DF3-73E756F8A6A8
   m_EditorClassIdentifier: 
-  objectName: Play_Stone_Footstep
-  id: 2939822758
-  guid: CE8AF94E-3F46-449B-BE2D-1A55AB5FD325
+  objectName: FootstepTerrain
+  id: 548879402
+  guid: 8C1CD231-26C5-4B3B-8DF3-73E756F8A6A8

@@ -13,7 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_STONE_FOOTSTEP = 2939822758U;
+        static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
     } // namespace EVENTS
 
     namespace BANKS
