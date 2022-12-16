@@ -39,6 +39,10 @@ public class PlayerMovement : MonoBehaviour
 
     public AK.Wwise.Event footstepSound = new  AK.Wwise.Event();
 
+
+    private bool bHasCollidedWater = false;
+   
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -157,8 +161,42 @@ public class PlayerMovement : MonoBehaviour
     {
         if(rb.velocity.magnitude > moveSpeed - 0.5 && timeElapsed > 0.4) //velocity value will need to be changed if players speed is changed.
         {
+            // Debug.Log("Footsteps"); for debugging
+            // AkSoundEngine.SetSwitch("FootstepTerrain", "Grass", gameObject);
+           // FootstepSwitch();
+            Debug.Log("Grass Footsteps");
             footstepSound.Post(gameObject);
             timeElapsed = 0;
+
+            
+
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.gameObject.tag == "Water")
+        {
+            AkSoundEngine.SetSwitch("FootstepTerrain", "Water", gameObject);
+            Debug.Log("Water");
+        }
+        if (other.gameObject.tag == "Cave")
+        {
+            AkSoundEngine.SetSwitch("FootstepTerrain", "Stone", gameObject);
+            Debug.Log("Stone");
+        }
+  
+    }
+
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(collision.gameObject.tag == "Ground")
+        {
+            AkSoundEngine.SetSwitch("FootstepTerrain", "Grass", gameObject);
+            Debug.Log("Grass");
+        }
+    }
+
 }

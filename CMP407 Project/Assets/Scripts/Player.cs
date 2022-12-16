@@ -21,7 +21,7 @@ public class Player : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Debug.Log("You Have:  " + Collectables + "Collectables");
+           // Debug.Log("You Have:  " + Collectables + "Collectables");
         }
 
         countText.text = Collectables.ToString();
@@ -36,6 +36,7 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false);
         }
 
+     
     }
 
    public int ReturnCollectables()

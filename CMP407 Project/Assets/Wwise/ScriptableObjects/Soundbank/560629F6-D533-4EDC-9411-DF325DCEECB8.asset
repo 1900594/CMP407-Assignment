@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc31097a0df1fd4ba5cd92dac434203, type: 3}
-  m_Name: CE8AF94E-3F46-449B-BE2D-1A55AB5FD325
+  m_Script: {fileID: 11500000, guid: 356eee7549162074eaeff6e0797caa17, type: 3}
+  m_Name: 560629F6-D533-4EDC-9411-DF325DCEECB8
   m_EditorClassIdentifier: 
-  objectName: Play_Footstep
-  id: 1602358412
-  guid: CE8AF94E-3F46-449B-BE2D-1A55AB5FD325
+  objectName: GameSoundbank
+  id: 460270446
+  guid: 560629F6-D533-4EDC-9411-DF325DCEECB8

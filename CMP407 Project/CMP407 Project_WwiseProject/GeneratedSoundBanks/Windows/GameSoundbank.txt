@@ -1,0 +1,22 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1088348632	PlayFootsteps			\Default Work Unit\PlayFootsteps	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	548879402	FootstepTerrain			\Default Work Unit\FootstepTerrain	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	FootstepTerrain			
+	2654748154	Water	FootstepTerrain			
+	4248645337	Grass	FootstepTerrain			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	157376516	puddle step 1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\puddle step 1_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle Footstep\puddle step 1		7664
+	265551835	grass step 1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\grass step 1_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass Footstep\grass step 1		3485
+	307816707	Footstep2	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Footstep2_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep2		4652
+	313108562	grass step 2	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\grass step 2_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass Footstep\grass step 2		3906
+	689489102	Footstep1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Footstep1_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep1		3791
+	734664114	puddle step 3	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\puddle step 3_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle Footstep\puddle step 3		6812
+	742638298	Footstep3	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Footstep3_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep3		4083
+	982666990	puddle step 2	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\puddle step 2_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle Footstep\puddle step 2		4988
+	999610158	grass step 3	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\grass step 3_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass Footstep\grass step 3		3446
+
