@@ -186,17 +186,22 @@ public class PlayerMovement : MonoBehaviour
             AkSoundEngine.SetSwitch("FootstepTerrain", "Stone", gameObject);
             Debug.Log("Stone");
         }
-  
+
+        if (other.gameObject.tag == "Grass")
+        {
+            AkSoundEngine.SetSwitch("FootstepTerrain", "Grass", gameObject);
+            Debug.Log("Grass");
+        }
     }
 
 
-    private void OnCollisionEnter(Collision collision)
+   /* private void OnCollisionEnter(Collision collision)
     {
         if(collision.gameObject.tag == "Ground")
         {
             AkSoundEngine.SetSwitch("FootstepTerrain", "Grass", gameObject);
             Debug.Log("Grass");
         }
-    }
+    }*/
 
 }
