@@ -66,11 +66,11 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 42ca839efe763349bb2d40bbe4558b84
     GuidInternal: 
-    m_lastTime: -8585304850039856586
+    m_lastTime: -8585303933936958386
     List:
-    - name: Main_Soundbank
-      guid: 95cf8bbc21a63a4ea52591b65e0c92e7
-      id: 2228651116
+    - name: GameSoundbank
+      guid: f629065633d5dc4e9411df325dceecb8
+      id: 460270446
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
@@ -78,10 +78,10 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 42ca839efe763349bb2d40bbe4558b84
-      - ElementName: Main_Soundbank
+      - ElementName: GameSoundbank
         ObjectType: 7
-        guid: 95cf8bbc21a63a4ea52591b65e0c92e7
-      Path: SoundBanks\Default Work Unit\Main_Soundbank
+        guid: f629065633d5dc4e9411df325dceecb8
+      Path: SoundBanks\Default Work Unit\GameSoundbank
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -94,11 +94,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 64f95801cb8bcb42b09ffaade7f292ac
     GuidInternal: 
-    m_lastTime: -8585304906955382503
+    m_lastTime: -8585303933936529814
     List:
-    - name: Play_Footstep
-      guid: 4ef98ace463f9b44be2d1a55ab5fd325
-      id: 1602358412
+    - name: Play_FootstepSwitch
+      guid: c185e9a4fcb9f74aad4b97f347c92494
+      id: 4049147792
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +106,30 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 64f95801cb8bcb42b09ffaade7f292ac
-      - ElementName: Play_Footstep
+      - ElementName: Play_FootstepSwitch
         ObjectType: 3
-        guid: 4ef98ace463f9b44be2d1a55ab5fd325
-      Path: Events\Default Work Unit\Play_Footstep
+        guid: c185e9a4fcb9f74aad4b97f347c92494
+      Path: Events\Default Work Unit\Play_FootstepSwitch
       maxAttenuation: 0
-      maxDuration: 0.252517
-      minDuration: 0.252517
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayFootsteps
+      guid: bacdac287468c84fa4300fcdda856823
+      id: 1088348632
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayFootsteps
+        ObjectType: 3
+        guid: bacdac287468c84fa4300fcdda856823
+      Path: Events\Default Work Unit\PlayFootsteps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -153,8 +170,74 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 09df7a05afe37e4a9450033f0d36d907
     GuidInternal: 
-    m_lastTime: -8585341191319828521
-    List: []
+    m_lastTime: -8585303933937448324
+    List:
+    - name: FootstepTerrain
+      guid: 31d21c8cc5263b4b8df373e756f8a6a8
+      id: 548879402
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 09df7a05afe37e4a9450033f0d36d907
+      - ElementName: FootstepTerrain
+        ObjectType: 11
+        guid: 31d21c8cc5263b4b8df373e756f8a6a8
+      Path: Switches\Default Work Unit\FootstepTerrain
+      values:
+      - name: Grass
+        guid: f21c325b804fae40a822daac12fdc717
+        id: 4248645337
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09df7a05afe37e4a9450033f0d36d907
+        - ElementName: FootstepTerrain
+          ObjectType: 11
+          guid: 31d21c8cc5263b4b8df373e756f8a6a8
+        - ElementName: Grass
+          ObjectType: 10
+          guid: f21c325b804fae40a822daac12fdc717
+      - name: Stone
+        guid: a652d841558c744aacafb4e6e3086e96
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09df7a05afe37e4a9450033f0d36d907
+        - ElementName: FootstepTerrain
+          ObjectType: 11
+          guid: 31d21c8cc5263b4b8df373e756f8a6a8
+        - ElementName: Stone
+          ObjectType: 10
+          guid: a652d841558c744aacafb4e6e3086e96
+      - name: Water
+        guid: 03b44235bf1fda4ab9d94fd0ec634724
+        id: 2654748154
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 09df7a05afe37e4a9450033f0d36d907
+        - ElementName: FootstepTerrain
+          ObjectType: 11
+          guid: 31d21c8cc5263b4b8df373e756f8a6a8
+        - ElementName: Water
+          ObjectType: 10
+          guid: 03b44235bf1fda4ab9d94fd0ec634724
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   TriggerWwu:
   - PhysicalPath: Triggers\Default Work Unit.wwu
     PathAndIcons:

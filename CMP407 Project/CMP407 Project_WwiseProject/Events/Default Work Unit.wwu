@@ -3,12 +3,27 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Footstep" ID="{CE8AF94E-3F46-449B-BE2D-1A55AB5FD325}">
+				<Event Name="Play_FootstepSwitch" ID="{A4E985C1-B9FC-4AF7-AD4B-97F347C92494}">
 					<ChildrenList>
-						<Action Name="" ID="{ECDC0321-C672-48FD-8AAB-D899A0379F3E}" ShortID="917838886">
+						<Action Name="" ID="{4D2FDA29-37F6-496C-8BC6-C0B37E839BBA}" ShortID="165516327">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Footstep1" ID="{6C934FB9-E572-43F8-AA63-4D52FAA0AC5E}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
+									<ObjectRef Name="Footsteps" ID="{EC265B62-A1D5-49CF-BCF6-5B3B4A55AB38}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayFootsteps" ID="{28ACCDBA-6874-4FC8-A430-0FCDDA856823}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="1"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Action Name="" ID="{8ADEF33A-4DDD-459B-80B9-5746AE6ED4B1}" ShortID="577522481">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Footsteps" ID="{EC265B62-A1D5-49CF-BCF6-5B3B4A55AB38}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

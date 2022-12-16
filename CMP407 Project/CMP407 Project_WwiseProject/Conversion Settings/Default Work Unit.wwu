@@ -38,7 +38,11 @@
 					</PropertyList>
 					<ConversionPluginInfoList>
 						<ConversionPluginInfo Platform="Windows">
-							<ConversionPlugin Name="" ID="{5490EDC7-9DF8-4978-85F6-B1D561FEEC3F}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+							<ConversionPlugin Name="" ID="{53856D2E-B677-40E7-BD02-D48AA96EF2EB}" PluginName="Vorbis" CompanyID="0" PluginID="4">
+								<PropertyList>
+									<Property Name="QualityFactor" Type="Real32" Value="6"/>
+								</PropertyList>
+							</ConversionPlugin>
 						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
 							<ConversionPlugin Name="" ID="{7703006F-5BDA-4C91-93B4-C5EF45B78EC4}" PluginName="PCM" CompanyID="0" PluginID="1"/>
