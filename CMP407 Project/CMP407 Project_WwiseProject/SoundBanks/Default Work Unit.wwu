@@ -10,6 +10,15 @@
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>
 				</SoundBank>
+				<SoundBank Name="Ambience" ID="{85986EED-E097-493A-8B3C-117A26892ED4}">
+					<ObjectInclusionList>
+						<ObjectRef Name="PlayTorchSound" ID="{B21E73F2-6F6D-4979-84BC-3901DFCCEFC6}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="StopStarSound" ID="{B4289054-937E-4C93-891B-D0C7119E2E00}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayStarSound" ID="{1FD5518A-10D5-4D90-B883-75FE8105BA44}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
 			</ChildrenList>
 		</WorkUnit>
 	</SoundBanks>

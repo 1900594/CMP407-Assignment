@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAYFOOTSTEPS = 1088348632U;
         static const AkUniqueID PLAYSTARSOUND = 1058272U;
+        static const AkUniqueID PLAYTORCHSOUND = 4132651872U;
         static const AkUniqueID STOPSTARSOUND = 3543552222U;
     } // namespace EVENTS
 

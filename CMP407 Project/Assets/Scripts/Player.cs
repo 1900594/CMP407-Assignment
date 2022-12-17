@@ -9,7 +9,7 @@ public class Player : MonoBehaviour
 
     private int Collectables;
 
-    public AK.Wwise.Event starSound = new AK.Wwise.Event();
+  
     
 
     public Text countText;
@@ -38,14 +38,16 @@ public class Player : MonoBehaviour
 
             Collectables++;
             other.gameObject.SetActive(false);
-            starSound.Post(other.gameObject);
+            
             
         }
 
      
     }
 
-   public int ReturnCollectables()
+ 
+
+    public int ReturnCollectables()
     {
         return Collectables;
     }
