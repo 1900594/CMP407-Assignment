@@ -195,7 +195,7 @@ Transform:
   - {fileID: 8240320671602761023}
   - {fileID: 8240320670740376587}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &8240320671472663741
 Rigidbody:
@@ -252,4 +252,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f015dea881fe7594fa9fffc826a2829f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bCollectableAlive: 1
   countText: {fileID: 0}
+  starSound:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bd12daf19c18ffd44bd23278087c992c, type: 2}

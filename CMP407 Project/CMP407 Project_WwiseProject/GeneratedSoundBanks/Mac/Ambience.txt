@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1058272	PlayStarSound			\Default Work Unit\PlayStarSound	
+	3543552222	StopStarSound			\Default Work Unit\StopStarSound	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	789685045	Star Fragment Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\Star Fragment Sound_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star Fragment Sound		6174064
+

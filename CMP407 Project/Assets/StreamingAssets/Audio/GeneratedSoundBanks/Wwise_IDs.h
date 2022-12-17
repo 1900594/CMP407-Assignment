@@ -13,13 +13,32 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_FOOTSTEP = 1602358412U;
+        static const AkUniqueID PLAYFOOTSTEPS = 1088348632U;
+        static const AkUniqueID PLAYSTARSOUND = 1058272U;
+        static const AkUniqueID STOPSTARSOUND = 3543552222U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace FOOTSTEPTERRAIN
+        {
+            static const AkUniqueID GROUP = 548879402U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID GRASS = 4248645337U;
+                static const AkUniqueID STONE = 1216965916U;
+                static const AkUniqueID WATER = 2654748154U;
+            } // namespace SWITCH
+        } // namespace FOOTSTEPTERRAIN
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;
-        static const AkUniqueID MAIN_SOUNDBANK = 2228651116U;
+        static const AkUniqueID AMBIENCE = 85412153U;
+        static const AkUniqueID GAMESOUNDBANK = 460270446U;
     } // namespace BANKS
 
     namespace BUSSES

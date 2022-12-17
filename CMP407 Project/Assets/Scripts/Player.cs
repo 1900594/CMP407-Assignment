@@ -9,7 +9,11 @@ public class Player : MonoBehaviour
 
     private int Collectables;
 
+    public AK.Wwise.Event starSound = new AK.Wwise.Event();
+    
+
     public Text countText;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +38,8 @@ public class Player : MonoBehaviour
 
             Collectables++;
             other.gameObject.SetActive(false);
+            starSound.Post(other.gameObject);
+            
         }
 
      
@@ -43,5 +49,7 @@ public class Player : MonoBehaviour
     {
         return Collectables;
     }
+
+
 
 }

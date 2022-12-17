@@ -128,8 +128,8 @@ MonoBehaviour:
         guid: bacdac287468c84fa4300fcdda856823
       Path: Events\Default Work Unit\PlayFootsteps
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 0.473563
+      minDuration: 0.252517
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
