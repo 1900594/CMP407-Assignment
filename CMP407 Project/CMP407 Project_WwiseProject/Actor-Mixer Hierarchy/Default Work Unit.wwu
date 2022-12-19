@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{807B997F-8D91-453B-ACBD-59558F33B855}" PersistMode="Standalone">
 			<ChildrenList>
 				<SwitchContainer Name="Footsteps" ID="{EC265B62-A1D5-49CF-BCF6-5B3B4A55AB38}" ShortID="155567991">
+					<PropertyList>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
@@ -305,6 +308,7 @@
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
@@ -334,6 +338,8 @@
 				<Sound Name="Torch Sound" ID="{65EBEEA1-FC36-4D44-9352-E2FF3322CF52}" ShortID="942683761">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
