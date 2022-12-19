@@ -5,5 +5,5 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	789685045	Star Fragment Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Star Fragment Sound_0762CC47.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star Fragment Sound		439968
-	948205068	Torch Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\bonfire-hq-6991_D8C07C79.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch Sound		1368831
+	948205068	Torch Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\bonfire-hq-6991_0762CC47.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch Sound		1368831
 

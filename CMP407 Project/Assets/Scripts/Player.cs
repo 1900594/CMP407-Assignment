@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     private int Collectables;
 
   
+
     
 
     public Text countText;
@@ -40,6 +41,11 @@ public class Player : MonoBehaviour
             other.gameObject.SetActive(false);
             
             
+        }
+
+        if(other.gameObject.tag=="ReverbZone")
+        {
+            Debug.Log("Reverb!");
         }
 
      

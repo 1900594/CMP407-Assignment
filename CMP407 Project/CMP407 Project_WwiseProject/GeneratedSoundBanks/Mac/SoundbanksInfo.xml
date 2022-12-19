@@ -11,7 +11,31 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="460270446" Language="SFX" Hash="165477839">
+		<SoundBank Id="85412153" Language="SFX" Hash="2734433925">
+			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
+			<ShortName>Ambience</ShortName>
+			<Path>Ambience.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1058272" Name="PlayStarSound" ObjectPath="\Events\Default Work Unit\PlayStarSound" MaxAttenuation="15." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="789685045" Language="SFX">
+							<ShortName>Star Fragment Sound.wav</ShortName>
+							<Path>SFX\Star Fragment Sound_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4132651872" Name="PlayTorchSound" ObjectPath="\Events\Default Work Unit\PlayTorchSound" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="948205068" Language="SFX">
+							<ShortName>bonfire-hq-6991.wav</ShortName>
+							<Path>SFX\bonfire-hq-6991_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="460270446" Language="SFX" Hash="71931527">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
@@ -91,10 +115,13 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3532488181">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
