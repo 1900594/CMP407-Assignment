@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX" Hash="3858676692">
+		<SoundBank Id="85412153" Language="SFX" Hash="2734433925">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -20,7 +20,7 @@
 					<IncludedMemoryFiles>
 						<File Id="789685045" Language="SFX">
 							<ShortName>Star Fragment Sound.wav</ShortName>
-							<Path>SFX\Star Fragment Sound_0762CC47.wem</Path>
+							<Path>SFX\Star Fragment Sound_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -28,14 +28,14 @@
 					<IncludedMemoryFiles>
 						<File Id="948205068" Language="SFX">
 							<ShortName>bonfire-hq-6991.wav</ShortName>
-							<Path>SFX\bonfire-hq-6991_0762CC47.wem</Path>
+							<Path>SFX\bonfire-hq-6991_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="460270446" Language="SFX" Hash="547593943">
+		<SoundBank Id="460270446" Language="SFX" Hash="71931527">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
@@ -44,39 +44,39 @@
 					<IncludedMemoryFiles>
 						<File Id="157376516" Language="SFX">
 							<ShortName>puddle step 1.wav</ShortName>
-							<Path>SFX\puddle step 1_D8C07C79.wem</Path>
+							<Path>SFX\puddle step 1_10C4C929.wem</Path>
 						</File>
 						<File Id="265551835" Language="SFX">
 							<ShortName>grass step 1.wav</ShortName>
-							<Path>SFX\grass step 1_D8C07C79.wem</Path>
+							<Path>SFX\grass step 1_10C4C929.wem</Path>
 						</File>
 						<File Id="307816707" Language="SFX">
 							<ShortName>Footstep2.wav</ShortName>
-							<Path>SFX\Footstep2_D8C07C79.wem</Path>
+							<Path>SFX\Footstep2_10C4C929.wem</Path>
 						</File>
 						<File Id="313108562" Language="SFX">
 							<ShortName>grass step 2.wav</ShortName>
-							<Path>SFX\grass step 2_D8C07C79.wem</Path>
+							<Path>SFX\grass step 2_10C4C929.wem</Path>
 						</File>
 						<File Id="689489102" Language="SFX">
 							<ShortName>Footstep1.wav</ShortName>
-							<Path>SFX\Footstep1_D8C07C79.wem</Path>
+							<Path>SFX\Footstep1_10C4C929.wem</Path>
 						</File>
 						<File Id="734664114" Language="SFX">
 							<ShortName>puddle step 3.wav</ShortName>
-							<Path>SFX\puddle step 3_D8C07C79.wem</Path>
+							<Path>SFX\puddle step 3_10C4C929.wem</Path>
 						</File>
 						<File Id="742638298" Language="SFX">
 							<ShortName>Footstep3.wav</ShortName>
-							<Path>SFX\Footstep3_D8C07C79.wem</Path>
+							<Path>SFX\Footstep3_10C4C929.wem</Path>
 						</File>
 						<File Id="982666990" Language="SFX">
 							<ShortName>puddle step 2.wav</ShortName>
-							<Path>SFX\puddle step 2_D8C07C79.wem</Path>
+							<Path>SFX\puddle step 2_10C4C929.wem</Path>
 						</File>
 						<File Id="999610158" Language="SFX">
 							<ShortName>grass step 3.wav</ShortName>
-							<Path>SFX\grass step 3_D8C07C79.wem</Path>
+							<Path>SFX\grass step 3_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{5B321CF2-4F80-40AE-A822-DAAC12FDC717}</DefaultSwitchValue>

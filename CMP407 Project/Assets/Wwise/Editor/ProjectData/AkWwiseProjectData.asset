@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 04817f8a47476d419e1be9da5846164c
     GuidInternal: 
-    m_lastTime: -8585341191320526309
+    m_lastTime: -8585301521484090572
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Reverb
+      guid: b619ca880a136d4d8550715ecd4ab5f0
+      id: 348963605
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 04817f8a47476d419e1be9da5846164c
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Reverb
+        ObjectType: 1
+        guid: b619ca880a136d4d8550715ecd4ab5f0
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -207,7 +224,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bba6d366ba1ecf41bfd63bcf023e6de5
     GuidInternal: 
-    m_lastTime: -8585341191319758702
+    m_lastTime: -8585301521483970879
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
