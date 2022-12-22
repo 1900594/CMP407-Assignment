@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1088348632	PlayFootsteps			\Default Work Unit\PlayFootsteps	
+	3703603361	PlayTreasureSound			\Default Work Unit\PlayTreasureSound	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
 	548879402	FootstepTerrain			\Default Work Unit\FootstepTerrain	
@@ -9,11 +10,16 @@ Switch	ID	Name	Switch Group			Notes
 	2654748154	Water	FootstepTerrain			
 	4248645337	Grass	FootstepTerrain			
 
+Effect plug-ins	ID	Name	Type				Notes
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	157376516	puddle step 1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\puddle step 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle Footstep\puddle step 1		45526
 	265551835	grass step 1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\grass step 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass Footstep\grass step 1		25104
 	307816707	Footstep2	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\Footstep2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep2		28864
 	313108562	grass step 2	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\grass step 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Grass Footstep\grass step 2		30940
+	412220710	Treasure Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\Treasure Sound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Treasure Sound		967744
 	689489102	Footstep1	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\Footstep1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep1		22336
 	734664114	puddle step 3	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\puddle step 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Puddle Footstep\puddle step 3		39352
 	742638298	Footstep3	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Mac\SFX\Footstep3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone Footstep\Footstep3		24000

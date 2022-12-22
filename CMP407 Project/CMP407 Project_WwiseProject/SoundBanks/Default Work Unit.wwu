@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="GameSoundbank" ID="{560629F6-D533-4EDC-9411-DF325DCEECB8}">
 					<ObjectInclusionList>
+						<ObjectRef Name="PlayTreasureSound" ID="{7911D933-86CC-4000-9CB4-059E1B99BEF2}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayFootsteps" ID="{28ACCDBA-6874-4FC8-A430-0FCDDA856823}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

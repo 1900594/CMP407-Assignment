@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX" Hash="2734433925">
+		<SoundBank Id="85412153" Language="SFX" Hash="3138016628">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -35,7 +35,7 @@
 				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="460270446" Language="SFX" Hash="71931527">
+		<SoundBank Id="460270446" Language="SFX" Hash="3041507281">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
@@ -104,6 +104,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="3703603361" Name="PlayTreasureSound" ObjectPath="\Events\Default Work Unit\PlayTreasureSound" DurationType="OneShot" DurationMin="5.485714" DurationMax="5.485714">
+					<IncludedMemoryFiles>
+						<File Id="412220710" Language="SFX">
+							<ShortName>Treasure Sound.wav</ShortName>
+							<Path>SFX\Treasure Sound_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="548879402" Name="FootstepTerrain" ObjectPath="\Switches\Default Work Unit\FootstepTerrain" GUID="{8C1CD231-26C5-4B3B-8DF3-73E756F8A6A8}">
@@ -115,7 +123,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2909993764">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2117487989">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

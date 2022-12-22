@@ -6,6 +6,7 @@
 				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\thust\Downloads\"/>
 				<Property Name="Event Action List\{1FD5518A-10D5-4D90-B883-75FE8105BA44}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{28ACCDBA-6874-4FC8-A430-0FCDDA856823}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{7911D933-86CC-4000-9CB4-059E1B99BEF2}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A4E985C1-B9FC-4AF7-AD4B-97F347C92494}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B21E73F2-6F6D-4979-84BC-3901DFCCEFC6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{B4289054-937E-4C93-891B-D0C7119E2E00}\x64_Expand States" Type="string" Value=""/>

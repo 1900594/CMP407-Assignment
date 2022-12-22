@@ -366,6 +366,38 @@
 						<ActiveSource Name="bonfire-hq-6991" ID="{214F5D09-5BA3-4ECF-BDAD-63D466AF9337}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Treasure Sound" ID="{7F8FD5DB-8411-43D4-91CC-5E0CF3D6F695}" ShortID="470408202">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+							<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="Effect1" PluginName="Wwise Pitch Shifter" CompanyID="0" PluginID="136" PluginType="3">
+							<ObjectRef Name="Monsterize" ID="{99F80B38-1C45-42CE-9BCD-E94F3885DCAA}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Treasure Sound" ID="{E1BE309D-6A0D-4E85-8212-98C8EE938FDA}">
+							<Language>SFX</Language>
+							<AudioFile>Treasure Sound.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="412220710"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Treasure Sound" ID="{E1BE309D-6A0D-4E85-8212-98C8EE938FDA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

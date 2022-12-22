@@ -13,10 +13,14 @@ public class Player : MonoBehaviour
 
     private bool bSecretTrigger = false;
 
+
     public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
+    
     
 
     public Text countText;
+
+    public Text WinText;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +38,7 @@ public class Player : MonoBehaviour
 
         TriggerSecret();
 
+    
         countText.text = Collectables.ToString();
     }
 
@@ -46,27 +51,35 @@ public class Player : MonoBehaviour
             StopStarSound.Stop(other.gameObject);
             other.gameObject.SetActive(false);
             
-            
-            
-            
         }
 
-        if(other.gameObject.tag=="ReverbZone")
+        /*if(other.gameObject.tag=="ReverbZone")
         {
             Debug.Log("Reverb!");
-        }
+        }*/
 
         if(other.gameObject.tag=="Secret")
         {
             bSecretTrigger = true;
         }
+
+        if (other.gameObject.tag == "Chest")
+        {
+            //play sound with audio effect
+            Debug.Log("Treasure!");
+            // TreasureSound.Post(other.gameObject);
+            //load end state with coroutine
+
      
+        }
+
     }
 
  
+
     void TriggerSecret()
     {
-        if(Collectables >= 5 && bSecretTrigger == true)
+        if(Collectables >= 1 && bSecretTrigger == true)
         {
             SecretWall.SetActive(false);
         }

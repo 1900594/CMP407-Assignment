@@ -69,6 +69,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayTreasureSound" ID="{7911D933-86CC-4000-9CB4-059E1B99BEF2}">
+					<ChildrenList>
+						<Action Name="" ID="{1DED6FE2-AC97-4425-B2A1-5F65E820CDCF}" ShortID="76055620">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Treasure Sound" ID="{7F8FD5DB-8411-43D4-91CC-5E0CF3D6F695}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1,0 +1,10 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3703603361	PlayTreasureSound			\Default Work Unit\PlayTreasureSound	
+
+Effect plug-ins	ID	Name	Type				Notes
+	1431265797	Monsterize	Wwise Pitch Shifter			
+	3487820010	One_Tap_Half_Second	Wwise Delay			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	412220710	Treasure Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Treasure Sound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Treasure Sound		967744
+
