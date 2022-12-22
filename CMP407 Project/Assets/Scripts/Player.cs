@@ -9,8 +9,11 @@ public class Player : MonoBehaviour
 
     private int Collectables;
 
-  
+    public GameObject SecretWall;
 
+    private bool bSecretTrigger = false;
+
+    public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
     
 
     public Text countText;
@@ -29,6 +32,8 @@ public class Player : MonoBehaviour
            // Debug.Log("You Have:  " + Collectables + "Collectables");
         }
 
+        TriggerSecret();
+
         countText.text = Collectables.ToString();
     }
 
@@ -38,7 +43,10 @@ public class Player : MonoBehaviour
         {
 
             Collectables++;
+            StopStarSound.Stop(other.gameObject);
             other.gameObject.SetActive(false);
+            
+            
             
             
         }
@@ -48,10 +56,21 @@ public class Player : MonoBehaviour
             Debug.Log("Reverb!");
         }
 
+        if(other.gameObject.tag=="Secret")
+        {
+            bSecretTrigger = true;
+        }
      
     }
 
  
+    void TriggerSecret()
+    {
+        if(Collectables >= 5 && bSecretTrigger == true)
+        {
+            SecretWall.SetActive(false);
+        }
+    }
 
     public int ReturnCollectables()
     {

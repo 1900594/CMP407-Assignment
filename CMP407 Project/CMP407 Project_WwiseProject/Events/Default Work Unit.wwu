@@ -48,7 +48,7 @@
 					<ChildrenList>
 						<Action Name="" ID="{E6843C76-CB8D-49A4-B42D-2FD20AF2AAD5}" ShortID="303776984">
 							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="ActionType" Type="int16" Value="34"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
