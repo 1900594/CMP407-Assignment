@@ -15,7 +15,8 @@ public class Player : MonoBehaviour
 
 
     public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
-    public AK.Wwise.Event SecretWallSound = new AK.Wwise.Event();
+    public AK.Wwise.Event SecretWallOpen = new AK.Wwise.Event();
+    public AK.Wwise.Event SecretWallClose = new AK.Wwise.Event();
 
     public Text countText;
 
@@ -52,16 +53,19 @@ public class Player : MonoBehaviour
             
         }
 
-        /*if(other.gameObject.tag=="ReverbZone")
-        {
-            Debug.Log("Reverb!");
-        }*/
-
-        if(other.gameObject.tag=="Secret")
+        if(other.gameObject.tag=="Open")
         {
             bSecretTrigger = true;
-            SecretWallSound.Post(other.gameObject);
+            SecretWallOpen.Post(other.gameObject);
+            Debug.Log("Door Open Sound");
         }
+
+        /*if (other.gameObject.tag == "Close")
+        {
+            SecretWall.SetActive(true);
+            SecretWallClose.Post(other.gameObject);
+            Debug.Log("Door Close Sound");
+        }*/
 
     }
 

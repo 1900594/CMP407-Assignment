@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 42ca839efe763349bb2d40bbe4558b84
     GuidInternal: 
-    m_lastTime: -8585298802130856754
+    m_lastTime: -8585297969512745754
     List:
     - name: Ambience
       guid: ed6e988597e03a498b3c117a26892ed4
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 64f95801cb8bcb42b09ffaade7f292ac
     GuidInternal: 
-    m_lastTime: -8585298802130966270
+    m_lastTime: -8585297969513064672
     List:
     - name: Play_FootstepSwitch
       guid: c185e9a4fcb9f74aad4b97f347c92494
@@ -212,6 +212,40 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 5.485714
       minDuration: 5.485714
+    - name: PlayWallClose
+      guid: 453c01660bef2d499361bb22b5ea7c14
+      id: 1889050313
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayWallClose
+        ObjectType: 3
+        guid: 453c01660bef2d499361bb22b5ea7c14
+      Path: Events\Default Work Unit\PlayWallClose
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: PlayWallOpen
+      guid: dec691dd3899c14898ea34235893a81c
+      id: 30498459
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayWallOpen
+        ObjectType: 3
+        guid: dec691dd3899c14898ea34235893a81c
+      Path: Events\Default Work Unit\PlayWallOpen
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: StopStarSound
       guid: 549028b47e93934c891bd0c7119e2e00
       id: 3543552222

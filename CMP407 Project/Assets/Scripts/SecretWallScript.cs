@@ -5,16 +5,14 @@ using UnityEngine;
 public class SecretWallScript : MonoBehaviour
 {
 
-    public Player player;
-    public GameObject SecretWall;
-    
+
+    public AK.Wwise.Event WallSound = new AK.Wwise.Event();
 
     // Start is called before the first frame update
     void Start()
     {
-        //player.FindObjectOfType<Player>(); 
-        player.GetComponent<Player>();
-        //CheckCollectable();
+        
+        
     }
 
     // Update is called once per frame
@@ -24,13 +22,6 @@ public class SecretWallScript : MonoBehaviour
     }
 
 
-    private void CheckCollectable()
-    {
-        if (player.ReturnCollectables() >= 1)//if collectibles collected is greater than or equal to 5
-        {
-            //secret wall should disappear...
-            SecretWall.SetActive(false); 
-          
-        }
-    }
+ 
+    
 }

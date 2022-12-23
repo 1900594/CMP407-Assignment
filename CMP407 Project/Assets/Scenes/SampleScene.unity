@@ -251,6 +251,91 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: b71b0f8d2f881c743a85228f3030d1cb, type: 3}
+--- !u!1 &11918748
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 11918749}
+  - component: {fileID: 11918750}
+  - component: {fileID: 11918752}
+  - component: {fileID: 11918751}
+  m_Layer: 0
+  m_Name: SecretCheck (1)
+  m_TagString: Close
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &11918749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11918748}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 2.31}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 402067876}
+  m_RootOrder: -1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &11918750
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11918748}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.7354708, y: 1.2119241, z: 1.1469135}
+  m_Center: {x: -0.009467602, y: -0.10596204, z: 0.073456764}
+--- !u!54 &11918751
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11918748}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &11918752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 11918748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d37dfa29067df842bcd7d4ffb762d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &20776789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4661435515762813124, guid: e289bf5debb17f6459818c207d781953, type: 3}
@@ -10268,9 +10353,11 @@ GameObject:
   m_Component:
   - component: {fileID: 883521920}
   - component: {fileID: 883521921}
+  - component: {fileID: 883521923}
+  - component: {fileID: 883521922}
   m_Layer: 0
   m_Name: SecretCheck
-  m_TagString: Secret
+  m_TagString: Open
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10303,6 +10390,44 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.7354708, y: 1.2119241, z: 1.1469135}
   m_Center: {x: -0.009467602, y: -0.10596204, z: 0.073456764}
+--- !u!54 &883521922
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883521919}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &883521923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883521919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d37dfa29067df842bcd7d4ffb762d55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
 --- !u!4 &887098191 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2222111361405018444, guid: 88f2fd29f58b9734683512546acec310, type: 3}
@@ -15176,6 +15301,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 502672457704661875, guid: d825dfa0c96bab8439b8f0ecab5e82e6, type: 3}
       insertIndex: -1
       addedObject: {fileID: 883521920}
+    - targetCorrespondingSourceObject: {fileID: 502672457704661875, guid: d825dfa0c96bab8439b8f0ecab5e82e6, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 11918749}
   m_SourcePrefab: {fileID: 100100000, guid: d825dfa0c96bab8439b8f0ecab5e82e6, type: 3}
 --- !u!4 &1300570493 stripped
 Transform:
@@ -24885,9 +25013,17 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: ad63bf936cce4af449f1145a8773c509, type: 2}
     - target: {fileID: 8240320671472663739, guid: c6b886c907fc50e44886f29367681130, type: 3}
+      propertyPath: SecretWallOpen.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 33d86dccf7dbab947b64517819f3f4b4, type: 2}
+    - target: {fileID: 8240320671472663739, guid: c6b886c907fc50e44886f29367681130, type: 3}
+      propertyPath: SecretWallClose.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 0e927384adb2d1440865fbd630d9b95c, type: 2}
+    - target: {fileID: 8240320671472663739, guid: c6b886c907fc50e44886f29367681130, type: 3}
       propertyPath: SecretWallSound.WwiseObjectReference
       value: 
-      objectReference: {fileID: 11400000, guid: ad63bf936cce4af449f1145a8773c509, type: 2}
+      objectReference: {fileID: 11400000, guid: 33d86dccf7dbab947b64517819f3f4b4, type: 2}
     - target: {fileID: 8240320671472663741, guid: c6b886c907fc50e44886f29367681130, type: 3}
       propertyPath: m_Interpolate
       value: 0
