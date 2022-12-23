@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 42ca839efe763349bb2d40bbe4558b84
     GuidInternal: 
-    m_lastTime: -8585303036508706556
+    m_lastTime: -8585298802130856754
     List:
     - name: Ambience
       guid: ed6e988597e03a498b3c117a26892ed4
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 64f95801cb8bcb42b09ffaade7f292ac
     GuidInternal: 
-    m_lastTime: -8585298866424168821
+    m_lastTime: -8585298802130966270
     List:
     - name: Play_FootstepSwitch
       guid: c185e9a4fcb9f74aad4b97f347c92494
@@ -195,6 +195,23 @@ MonoBehaviour:
       maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
+    - name: PlayTreasureSound
+      guid: 33d91179cc8600409cb4059e1b99bef2
+      id: 3703603361
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayTreasureSound
+        ObjectType: 3
+        guid: 33d91179cc8600409cb4059e1b99bef2
+      Path: Events\Default Work Unit\PlayTreasureSound
+      maxAttenuation: 0
+      maxDuration: 5.485714
+      minDuration: 5.485714
     - name: StopStarSound
       guid: 549028b47e93934c891bd0c7119e2e00
       id: 3543552222
