@@ -227,8 +227,8 @@ MonoBehaviour:
         guid: 453c01660bef2d499361bb22b5ea7c14
       Path: Events\Default Work Unit\PlayWallClose
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 1.80625
+      minDuration: 1.80625
     - name: PlayWallOpen
       guid: dec691dd3899c14898ea34235893a81c
       id: 30498459
@@ -244,8 +244,8 @@ MonoBehaviour:
         guid: dec691dd3899c14898ea34235893a81c
       Path: Events\Default Work Unit\PlayWallOpen
       maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 2.705271
+      minDuration: 2.705271
     - name: StopStarSound
       guid: 549028b47e93934c891bd0c7119e2e00
       id: 3543552222

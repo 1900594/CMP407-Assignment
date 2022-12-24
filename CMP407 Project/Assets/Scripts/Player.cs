@@ -12,10 +12,11 @@ public class Player : MonoBehaviour
     public GameObject SecretWall;
 
     private bool bSecretTrigger = false;
+    private bool bDoorClose = false;
     
 
 
-    public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
+    //public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
     public AK.Wwise.Event SecretWallOpen = new AK.Wwise.Event();
     public AK.Wwise.Event SecretWallClose = new AK.Wwise.Event();
 
@@ -64,7 +65,8 @@ public class Player : MonoBehaviour
         if (other.gameObject.tag == "Close")
         {
             //SecretWall.SetActive(true);
-            bSecretTrigger = true;
+            // bSecretTrigger = true;
+            bDoorClose = true;
             SecretWallClose.Post(other.gameObject);
             other.gameObject.SetActive(false);
             Debug.Log("Door Close Sound");
@@ -72,13 +74,13 @@ public class Player : MonoBehaviour
 
     }
 
-    private void OnTriggerExit(Collider other)
+    /*private void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Collectable")
         {
             StopStarSound.Stop(other.gameObject);
         }
-    }
+    }*/
 
 
     void TriggerSecret()
@@ -88,9 +90,10 @@ public class Player : MonoBehaviour
             SecretWall.SetActive(false);
 
         }
-        if(bSecretTrigger == false)
+        if(bDoorClose == true)
         {
             SecretWall.SetActive(true);
+
         }
     }
 
