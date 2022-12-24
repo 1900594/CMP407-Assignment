@@ -105,6 +105,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="PlayWildlife_Ambience" ID="{E932C3C2-9795-4734-8DB2-54762251F459}">
+					<ChildrenList>
+						<Action Name="" ID="{9E0670C1-4D9E-4CDA-8984-5F44D0DAEEE2}" ShortID="172479285">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Wildlife Ambience" ID="{0AC32252-95BF-4C4C-8EB9-8B309F0A474C}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
