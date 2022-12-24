@@ -12,6 +12,7 @@ public class Player : MonoBehaviour
     public GameObject SecretWall;
 
     private bool bSecretTrigger = false;
+    
 
 
     public AK.Wwise.Event StopStarSound = new AK.Wwise.Event();
@@ -48,7 +49,6 @@ public class Player : MonoBehaviour
         {
 
             Collectables++;
-            //StopStarSound.Stop(other.gameObject);
             other.gameObject.SetActive(false);
             
         }
@@ -57,19 +57,29 @@ public class Player : MonoBehaviour
         {
             bSecretTrigger = true;
             SecretWallOpen.Post(other.gameObject);
-            Debug.Log("Door Open Sound");
+            other.gameObject.SetActive(false);
+            //Debug.Log("Door Open Sound");
         }
 
-        /*if (other.gameObject.tag == "Close")
+        if (other.gameObject.tag == "Close")
         {
-            SecretWall.SetActive(true);
+            //SecretWall.SetActive(true);
+            bSecretTrigger = true;
             SecretWallClose.Post(other.gameObject);
+            other.gameObject.SetActive(false);
             Debug.Log("Door Close Sound");
-        }*/
+        }
 
     }
 
- 
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Collectable")
+        {
+            StopStarSound.Stop(other.gameObject);
+        }
+    }
+
 
     void TriggerSecret()
     {
@@ -78,7 +88,13 @@ public class Player : MonoBehaviour
             SecretWall.SetActive(false);
 
         }
+        if(bSecretTrigger == false)
+        {
+            SecretWall.SetActive(true);
+        }
     }
+
+    
 
     public int ReturnCollectables()
     {

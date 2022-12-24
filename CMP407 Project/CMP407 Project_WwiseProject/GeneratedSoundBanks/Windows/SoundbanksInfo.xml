@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX" Hash="3138016628">
+		<SoundBank Id="85412153" Language="SFX" Hash="631853601">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
@@ -32,10 +32,18 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="121361976" Name="PlayWildlife_Ambience" ObjectPath="\Events\Default Work Unit\PlayWildlife_Ambience" MaxAttenuation="45." DurationType="OneShot" DurationMin="61.079411" DurationMax="61.079411">
+					<IncludedMemoryFiles>
+						<File Id="513753431" Language="SFX">
+							<ShortName>Wildlife Ambience.wav</ShortName>
+							<Path>SFX\Wildlife Ambience_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="460270446" Language="SFX" Hash="3041507281">
+		<SoundBank Id="460270446" Language="SFX" Hash="824886072">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
@@ -112,6 +120,22 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1889050313" Name="PlayWallClose" ObjectPath="\Events\Default Work Unit\PlayWallClose" DurationType="OneShot" DurationMin="1.80625" DurationMax="1.80625">
+					<IncludedMemoryFiles>
+						<File Id="162647412" Language="SFX">
+							<ShortName>Secret Wall Close.wav</ShortName>
+							<Path>SFX\Secret Wall Close_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="30498459" Name="PlayWallOpen" ObjectPath="\Events\Default Work Unit\PlayWallOpen" DurationType="OneShot" DurationMin="2.705271" DurationMax="2.705271">
+					<IncludedMemoryFiles>
+						<File Id="603664555" Language="SFX">
+							<ShortName>Secret Wall Open.wav</ShortName>
+							<Path>SFX\Secret Wall Open_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 			<SwitchGroups>
 				<SwitchGroup Id="548879402" Name="FootstepTerrain" ObjectPath="\Switches\Default Work Unit\FootstepTerrain" GUID="{8C1CD231-26C5-4B3B-8DF3-73E756F8A6A8}">
@@ -123,7 +147,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="643658027">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2308030512">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>

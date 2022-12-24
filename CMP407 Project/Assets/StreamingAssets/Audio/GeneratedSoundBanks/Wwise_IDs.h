@@ -17,6 +17,9 @@ namespace AK
         static const AkUniqueID PLAYSTARSOUND = 1058272U;
         static const AkUniqueID PLAYTORCHSOUND = 4132651872U;
         static const AkUniqueID PLAYTREASURESOUND = 3703603361U;
+        static const AkUniqueID PLAYWALLCLOSE = 1889050313U;
+        static const AkUniqueID PLAYWALLOPEN = 30498459U;
+        static const AkUniqueID PLAYWILDLIFE_AMBIENCE = 121361976U;
         static const AkUniqueID STOPSTARSOUND = 3543552222U;
     } // namespace EVENTS
 

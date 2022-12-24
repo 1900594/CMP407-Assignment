@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc31097a0df1fd4ba5cd92dac434203, type: 3}
+  m_Name: E932C3C2-9795-4734-8DB2-54762251F459
+  m_EditorClassIdentifier: 
+  objectName: PlayWildlife_Ambience
+  id: 121361976
+  guid: E932C3C2-9795-4734-8DB2-54762251F459
