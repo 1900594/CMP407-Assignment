@@ -85,7 +85,7 @@ public class Player : MonoBehaviour
 
     void TriggerSecret()
     {
-        if(Collectables >= 1 && bSecretTrigger == true)
+        if(Collectables >= 5 && bSecretTrigger == true)
         {
             SecretWall.SetActive(false);
 

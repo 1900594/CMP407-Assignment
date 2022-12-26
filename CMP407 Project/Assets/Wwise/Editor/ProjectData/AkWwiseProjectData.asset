@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 42ca839efe763349bb2d40bbe4558b84
     GuidInternal: 
-    m_lastTime: -8585297969512745754
+    m_lastTime: -8585295202645181077
     List:
     - name: Ambience
       guid: ed6e988597e03a498b3c117a26892ed4
@@ -125,8 +125,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 64f95801cb8bcb42b09ffaade7f292ac
     GuidInternal: 
-    m_lastTime: -8585297969513064672
+    m_lastTime: -8585295202645589979
     List:
+    - name: ButtonClick
+      guid: 0fa06eb9cb0a2c47b93da1c71f1a0085
+      id: 4051332235
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: ButtonClick
+        ObjectType: 3
+        guid: 0fa06eb9cb0a2c47b93da1c71f1a0085
+      Path: Events\Default Work Unit\ButtonClick
+      maxAttenuation: 0
+      maxDuration: 0.133146
+      minDuration: 0.133146
     - name: Play_FootstepSwitch
       guid: c185e9a4fcb9f74aad4b97f347c92494
       id: 4049147792
@@ -246,6 +263,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.705271
       minDuration: 2.705271
+    - name: PlayWildlife_Ambience
+      guid: c2c332e9959734478db254762251f459
+      id: 121361976
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayWildlife_Ambience
+        ObjectType: 3
+        guid: c2c332e9959734478db254762251f459
+      Path: Events\Default Work Unit\PlayWildlife_Ambience
+      maxAttenuation: 45
+      maxDuration: 61.07941
+      minDuration: 61.07941
     - name: StopStarSound
       guid: 549028b47e93934c891bd0c7119e2e00
       id: 3543552222
@@ -386,7 +420,7 @@ MonoBehaviour:
     m_lastTime: -8585341191319499074
     List: []
   ExpandedFileSystemItemIds: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c000000
-  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000e6ac0000
+  ExpandedWaapiItemIds: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001400000015000000e6ac0000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -22,7 +22,19 @@ public class MenuUI : MonoBehaviour
 
    public void PlayButton()
     {
+        // SceneManager.LoadScene("SampleScene");
+        StartCoroutine(SceneDelay());
+        //Debug.Log("Level Loaded");
+    }
+
+    public void QuitButton()
+    {
+        Application.Quit();
+    }
+
+    IEnumerator SceneDelay()
+    {
+        yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("SampleScene");
-        Debug.Log("Level Loaded");
     }
 }

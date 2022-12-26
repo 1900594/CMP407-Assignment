@@ -116,6 +116,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ButtonClick" ID="{B96EA00F-0ACB-472C-B93D-A1C71F1A0085}">
+					<ChildrenList>
+						<Action Name="" ID="{93C34473-AEC6-4932-A1AF-7DBCA49BF8D4}" ShortID="376393326">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Button Click" ID="{04852806-F4E8-4771-A532-81A9B89A4CA4}" WorkUnitID="{807B997F-8D91-453B-ACBD-59558F33B855}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

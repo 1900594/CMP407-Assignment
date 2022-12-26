@@ -495,6 +495,29 @@
 						<ActiveSource Name="Wildlife Ambience" ID="{6067E3D8-A992-497E-91F6-EBDF16511026}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="Button Click" ID="{04852806-F4E8-4771-A532-81A9B89A4CA4}" ShortID="373211619">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Button Click" ID="{D99AAFCF-4A8A-477B-A74B-4531E1298B5E}">
+							<Language>SFX</Language>
+							<AudioFile>Button Click.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="617537352"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Button Click" ID="{D99AAFCF-4A8A-477B-A74B-4531E1298B5E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

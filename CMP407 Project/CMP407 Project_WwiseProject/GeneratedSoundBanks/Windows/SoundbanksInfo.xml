@@ -43,11 +43,19 @@
 				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="460270446" Language="SFX" Hash="824886072">
+		<SoundBank Id="460270446" Language="SFX" Hash="2455914301">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4051332235" Name="ButtonClick" ObjectPath="\Events\Default Work Unit\ButtonClick" DurationType="OneShot" DurationMin="0.133146" DurationMax="0.133146">
+					<IncludedMemoryFiles>
+						<File Id="617537352" Language="SFX">
+							<ShortName>Button Click.wav</ShortName>
+							<Path>SFX\Button Click_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="1088348632" Name="PlayFootsteps" ObjectPath="\Events\Default Work Unit\PlayFootsteps" DurationType="OneShot" DurationMin="0.252517" DurationMax="0.473563">
 					<IncludedMemoryFiles>
 						<File Id="157376516" Language="SFX">
