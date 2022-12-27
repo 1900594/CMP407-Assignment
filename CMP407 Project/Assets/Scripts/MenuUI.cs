@@ -32,9 +32,25 @@ public class MenuUI : MonoBehaviour
         Application.Quit();
     }
 
+
+    public void HowToPlayButton()
+    {
+        SceneManager.LoadScene("HowToPlay");
+    }
+
+    public void MenuButton()
+    {
+        StartCoroutine(Delay());
+        SceneManager.LoadScene("MainMenu");
+    }
     IEnumerator SceneDelay()
     {
         yield return new WaitForSeconds(1.5f);
         SceneManager.LoadScene("SampleScene");
+    }
+
+    IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(1.5f);
     }
 }

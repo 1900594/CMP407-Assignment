@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 133
+  controlID: 75
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 343.2
     height: 454.4
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -338,9 +338,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e4660000
-      m_LastClickedID: 26340
-      m_ExpandedIDs: 909afeff78e8ffff32fbfffffc660000
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: a253ffffc056ffff886cffffd66cffff6c6dffff4c6efffff66fffffca70ffff9874ffff3677ffff9ac1fffffac1ffff98c2ffff38c3ffffcac4ffff8ec7ffffb2d3ffff8adfffff34fbffffea5d0000d09f0000aebd000094be0000a6be00009cbf0000aebf000076df00006ae200007ce20000fae2000010ec00001eee0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -622,9 +622,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 479.08636, y: 362.36285, z: 14.710373}
+    m_Target: {x: 557.71814, y: 333.289, z: -326.944}
     speed: 2
-    m_Value: {x: 479.08636, y: 362.36285, z: 14.710373}
+    m_Value: {x: 557.71814, y: 333.289, z: -326.944}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -670,9 +670,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.1660661, y: 0.077773996, z: 0.013682235, w: 0.9831412}
+    m_Target: {x: -0.033585474, y: 0.113224186, z: 0.0044785044, w: 0.993185}
     speed: 2
-    m_Value: {x: -0.1660345, y: 0.0777592, z: 0.013679632, w: 0.98295414}
+    m_Value: {x: -0.033579025, y: 0.113202445, z: 0.0044776443, w: 0.9929943}
   m_Size:
     m_Target: 81.394104
     speed: 2
@@ -933,13 +933,13 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming
     CMP407\CMP407-Assignment\CMP407 Project
@@ -947,9 +947,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 48.600006}
-    m_SelectedIDs: 74660000
-    m_LastClickedID: 26228
-    m_ExpandedIDs: 000000001866000000ca9a3b
+    m_SelectedIDs: 6a660000
+    m_LastClickedID: 26218
+    m_ExpandedIDs: 000000001666000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -977,7 +977,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000186600001a660000
+    m_ExpandedIDs: 0000000016660000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1021,7 +1021,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 10}
+      m_ClientGUIView: {fileID: 9}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -1065,7 +1065,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 0d000000
     m_LastClickedID: 13
-    m_ExpandedIDs: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f00000010000000110000001400000015000000e6ac0000
+    m_ExpandedIDs: 01000000020000000300000004000000050000000600000007000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000130000001400000015000000e6ac0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
