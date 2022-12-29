@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 42ca839efe763349bb2d40bbe4558b84
     GuidInternal: 
-    m_lastTime: -8585295202645181077
+    m_lastTime: -8585292801619391174
     List:
     - name: Ambience
       guid: ed6e988597e03a498b3c117a26892ed4
@@ -125,7 +125,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 64f95801cb8bcb42b09ffaade7f292ac
     GuidInternal: 
-    m_lastTime: -8585295202645589979
+    m_lastTime: -8585292801619638397
     List:
     - name: ButtonClick
       guid: 0fa06eb9cb0a2c47b93da1c71f1a0085
@@ -178,6 +178,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.473563
       minDuration: 0.252517
+    - name: PlayRadio
+      guid: 9daea9e8d4ab544db1b98f715e12397c
+      id: 2507646724
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 64f95801cb8bcb42b09ffaade7f292ac
+      - ElementName: PlayRadio
+        ObjectType: 3
+        guid: 9daea9e8d4ab544db1b98f715e12397c
+      Path: Events\Default Work Unit\PlayRadio
+      maxAttenuation: 45
+      maxDuration: -1
+      minDuration: -1
     - name: PlayStarSound
       guid: 8a51d51fd510904db88375fe8105ba44
       id: 1058272
@@ -193,8 +210,8 @@ MonoBehaviour:
         guid: 8a51d51fd510904db88375fe8105ba44
       Path: Events\Default Work Unit\PlayStarSound
       maxAttenuation: 15
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 35
+      minDuration: 35
     - name: PlayTorchSound
       guid: f2731eb26d6f794984bc3901dfccefc6
       id: 4132651872

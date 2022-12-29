@@ -9,6 +9,7 @@
 						<ObjectRef Name="ButtonClick" ID="{B96EA00F-0ACB-472C-B93D-A1C71F1A0085}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWallOpen" ID="{DD91C6DE-9938-48C1-98EA-34235893A81C}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayWallClose" ID="{66013C45-EF0B-492D-9361-BB22B5EA7C14}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="PlayRadio" ID="{E8A9AE9D-ABD4-4D54-B1B9-8F715E12397C}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayFootsteps" ID="{28ACCDBA-6874-4FC8-A430-0FCDDA856823}" WorkUnitID="{0158F964-8BCB-42CB-B09F-FAADE7F292AC}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

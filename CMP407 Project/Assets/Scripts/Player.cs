@@ -13,6 +13,7 @@ public class Player : MonoBehaviour
 
     private bool bSecretTrigger = false;
     private bool bDoorClose = false;
+    private bool bIsCollected = false;
     
 
 
@@ -51,6 +52,8 @@ public class Player : MonoBehaviour
 
             Collectables++;
             other.gameObject.SetActive(false);
+            bIsCollected = true;
+
             
         }
 
@@ -97,12 +100,15 @@ public class Player : MonoBehaviour
         }
     }
 
-    
-
-    public int ReturnCollectables()
+    public bool ReturnStatus()
     {
-        return Collectables;
+        return bIsCollected;
     }
+
+    //public int ReturnCollectables()
+    //{
+        //return Collectables;
+    //}
 
 
 

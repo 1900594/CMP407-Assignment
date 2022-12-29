@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID BUTTONCLICK = 4051332235U;
         static const AkUniqueID PLAYFOOTSTEPS = 1088348632U;
+        static const AkUniqueID PLAYRADIO = 2507646724U;
         static const AkUniqueID PLAYSTARSOUND = 1058272U;
         static const AkUniqueID PLAYTORCHSOUND = 4132651872U;
         static const AkUniqueID PLAYTREASURESOUND = 3703603361U;

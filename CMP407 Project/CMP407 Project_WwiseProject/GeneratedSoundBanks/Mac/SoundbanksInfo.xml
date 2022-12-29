@@ -11,16 +11,16 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="85412153" Language="SFX" Hash="631853601">
+		<SoundBank Id="85412153" Language="SFX" Hash="2505117882">
 			<ObjectPath>\SoundBanks\Default Work Unit\Ambience</ObjectPath>
 			<ShortName>Ambience</ShortName>
 			<Path>Ambience.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1058272" Name="PlayStarSound" ObjectPath="\Events\Default Work Unit\PlayStarSound" MaxAttenuation="15." DurationType="Infinite">
+				<Event Id="1058272" Name="PlayStarSound" ObjectPath="\Events\Default Work Unit\PlayStarSound" MaxAttenuation="15." DurationType="OneShot" DurationMin="35." DurationMax="35.">
 					<IncludedMemoryFiles>
 						<File Id="789685045" Language="SFX">
 							<ShortName>Star Fragment Sound.wav</ShortName>
-							<Path>SFX\Star Fragment Sound_D79FB2B7.wem</Path>
+							<Path>SFX\Star Fragment Sound_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -43,7 +43,7 @@
 				<Event Id="3543552222" Name="StopStarSound" ObjectPath="\Events\Default Work Unit\StopStarSound" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="460270446" Language="SFX" Hash="2455914301">
+		<SoundBank Id="460270446" Language="SFX" Hash="820476455">
 			<ObjectPath>\SoundBanks\Default Work Unit\GameSoundbank</ObjectPath>
 			<ShortName>GameSoundbank</ShortName>
 			<Path>GameSoundbank.bnk</Path>
@@ -120,6 +120,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
+				<Event Id="2507646724" Name="PlayRadio" ObjectPath="\Events\Default Work Unit\PlayRadio" MaxAttenuation="25." DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="156427039" Language="SFX">
+							<ShortName>Radio-Sound.wav</ShortName>
+							<Path>SFX\Radio-Sound_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3703603361" Name="PlayTreasureSound" ObjectPath="\Events\Default Work Unit\PlayTreasureSound" DurationType="OneShot" DurationMin="5.485714" DurationMax="5.485714">
 					<IncludedMemoryFiles>
 						<File Id="412220710" Language="SFX">
@@ -155,7 +163,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX" Hash="467286298">
+		<SoundBank Id="1355168291" Language="SFX" Hash="4048937515">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
