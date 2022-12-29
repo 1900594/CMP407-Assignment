@@ -192,7 +192,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 9daea9e8d4ab544db1b98f715e12397c
       Path: Events\Default Work Unit\PlayRadio
-      maxAttenuation: 45
+      maxAttenuation: 25
       maxDuration: -1
       minDuration: -1
     - name: PlayStarSound
