@@ -22,8 +22,9 @@ public class RadioScript : MonoBehaviour
     {
         if(other.gameObject.tag =="Player")
         {
-            Debug.Log("Play Radio!");
+           Debug.Log("Play Radio!");
            PlaySound.Post(radio);
+           
         }
     }
 

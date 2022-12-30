@@ -3,7 +3,16 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Close
+  - Water
+  - Grass
+  - ReverbZone
+  - Open
+  - Ground
+  - Cave
+  - Chest
+  - Collectable
   layers:
   - Default
   - TransparentFX
@@ -16,9 +25,9 @@ TagManager:
   - 
   - 
   - whatIsGround
-  - 
-  - 
-  - 
+  - Player
+  - Trees
+  - Torches
   - 
   - 
   - 

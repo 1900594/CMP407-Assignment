@@ -35,6 +35,8 @@ public class TreasureScript : MonoBehaviour
     {
         yield return new WaitForSeconds(4.0f);
         SceneManager.LoadScene("EndScene");
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
 }
