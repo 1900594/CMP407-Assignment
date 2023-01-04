@@ -5,7 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	4132651872	PlayTorchSound			\Default Work Unit\PlayTorchSound	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	513753431	Wildlife Ambience	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Wildlife Ambience_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wildlife Ambience		10774472
-	789685045	Star Fragment Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Star Fragment Sound_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star Fragment Sound		6174064
-	948205068	Torch Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\bonfire-hq-6991_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch Sound		8015680
+	513753431	Wildlife Ambience	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Wildlife Ambience_B09F49DF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Wildlife Ambience		3030400
+	789685045	Star Fragment Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\Star Fragment Sound_3F75BDB9.wem		\Actor-Mixer Hierarchy\Default Work Unit\Star Fragment Sound		276713
+	948205068	Torch Sound	C:\Users\thust\OneDrive\Desktop\University Year 4\Audio Programming CMP407\CMP407-Assignment\CMP407 Project\CMP407 Project_WwiseProject\.cache\Windows\SFX\bonfire-hq-6991_4811579D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Torch Sound		2254456
 

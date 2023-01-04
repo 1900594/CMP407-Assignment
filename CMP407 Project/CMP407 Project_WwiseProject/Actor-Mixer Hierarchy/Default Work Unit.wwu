@@ -9,7 +9,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Short Sounds" ID="{3B0A8C3C-61C2-4163-8A29-398DF61CE5E9}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="DefaultSwitchOrState">
 							<ObjectRef Name="Grass" ID="{5B321CF2-4F80-40AE-A822-DAAC12FDC717}" WorkUnitID="{057ADF09-E3AF-4A7E-9450-033F0D36D907}"/>
@@ -314,7 +314,7 @@
 							<ObjectRef Name="Star Fragments" ID="{C15643EF-44C0-43B9-8B48-72417A97290A}" WorkUnitID="{E3CE19EF-7BEC-4C48-8B0E-65654D918E2E}"/>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Long Sounds &amp; Music" ID="{94A1D0BE-48B4-40DB-B475-A9F34811AD09}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
@@ -345,7 +345,7 @@
 							<ObjectRef Name="Torches" ID="{8856D50C-9079-46A6-ABD7-E15894E3B742}" WorkUnitID="{E3CE19EF-7BEC-4C48-8B0E-65654D918E2E}"/>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Ambience" ID="{F8C35839-9257-4D08-876C-468A53327AB6}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
@@ -371,7 +371,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Short Sounds" ID="{3B0A8C3C-61C2-4163-8A29-398DF61CE5E9}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<ObjectRef Name="One_Tap_Half_Second" ID="{B8FE0D3B-7AAB-4344-89FE-177602B7BF19}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -403,7 +403,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Short Sounds" ID="{3B0A8C3C-61C2-4163-8A29-398DF61CE5E9}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="Effect0">
 							<Custom CreatedFrom="{E5FFEBA7-4F6F-421E-ABB7-286C011BD0C8}">
@@ -442,7 +442,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Short Sounds" ID="{3B0A8C3C-61C2-4163-8A29-398DF61CE5E9}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="Effect0" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
 							<ObjectRef Name="One_Tap_Quarter_Second" ID="{6BD2D67D-601A-45A6-AD4C-2C089078EBED}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
@@ -474,7 +474,7 @@
 							<ObjectRef Name="Wildlife Ambience" ID="{09757AE6-A4FB-447B-9974-5EE26BE46FF4}" WorkUnitID="{E3CE19EF-7BEC-4C48-8B0E-65654D918E2E}"/>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Ambience" ID="{F8C35839-9257-4D08-876C-468A53327AB6}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
@@ -497,7 +497,7 @@
 				<Sound Name="Button Click" ID="{04852806-F4E8-4771-A532-81A9B89A4CA4}" ShortID="373211619">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Short Sounds" ID="{3B0A8C3C-61C2-4163-8A29-398DF61CE5E9}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
@@ -527,7 +527,7 @@
 							<ObjectRef Name="Torches" ID="{8856D50C-9079-46A6-ABD7-E15894E3B742}" WorkUnitID="{E3CE19EF-7BEC-4C48-8B0E-65654D918E2E}"/>
 						</Reference>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
+							<ObjectRef Name="Long Sounds &amp; Music" ID="{94A1D0BE-48B4-40DB-B475-A9F34811AD09}" WorkUnitID="{F6A5FC8D-7FD6-472A-8CDD-DA86CA190771}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{8A7F8104-4747-416D-9E1B-E9DA5846164C}"/>
